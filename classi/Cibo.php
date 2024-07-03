@@ -42,9 +42,3 @@ class Cibo extends Prodotto{
     }
 
 }
-
-
-
-
-
-?>

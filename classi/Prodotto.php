@@ -20,9 +20,3 @@ class Prodotto {
         return $this->categoria;
     }
 }
-
-
-
-
-
-?>

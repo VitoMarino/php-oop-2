@@ -40,10 +40,3 @@ class Accessorio extends Prodotto{
         return $this->dimensioni;
     }
 }
-
-
-
-
-
-
-?>

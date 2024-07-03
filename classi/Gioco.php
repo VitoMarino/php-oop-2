@@ -43,9 +43,3 @@ class Gioco extends Prodotto{
         return $this->dimensioni;
     }
 }
-
-
-
-
-
-?>
