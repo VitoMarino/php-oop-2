@@ -4,6 +4,8 @@ class Accessorio extends Prodotto{
     private $prezzo;
     private $materiale;
     private $dimensioni;
+
+    
 }
 
 
