@@ -48,7 +48,10 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/300306/Royal-Canin-Mini-Adult-Alimento-Completo-per-Cani-Adulti-di-Piccola-Taglia-10120604-1.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
                     <p class="card-text">
-                        <?php echo $ciboCaneUno = new Cibo ?>
+                        <?php echo($ciboCaneUno->getCategoria()) ?>
+                    </p>
+                    <p>
+                        <?php echo($ciboCaneUno->getPrezzo())  ?>
                     </p>
                 </div>
             </div>
