@@ -47,11 +47,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/300306/Royal-Canin-Mini-Adult-Alimento-Completo-per-Cani-Adulti-di-Piccola-Taglia-10120604-1.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Royal Canini Mini Adult
+                    </h6>
                     <p class="card-text">
-                        <?php echo($ciboCaneUno->getCategoria()) ?>
+                        <?php echo ($ciboCaneUno->getCategoria()) ?>
                     </p>
                     <p>
-                        <?php echo($ciboCaneUno->getPrezzo())  ?>
+                        <?php echo ($ciboCaneUno->getPrezzo()) ?>
+                    </p>
+                    <p>
+                        <?php echo ($ciboCaneUno->getPeso()) ?>
+                    </p>
+                    <p>
+                        <?php echo ($ciboCaneDue->getIngredienti()) ?>
                     </p>
                 </div>
             </div>
@@ -59,8 +68,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/300514/Almo-Nature-Holistic-Maintenance-Medium-Large-Tonno-e-Riso-10118806.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Almo Nature Holistic Maintenance Medium Large Tonno e Riso
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($ciboCaneDue->getCategoria()) ?>
+                    </p>
+                    <p>
+                        <?php echo ($ciboCaneDue->getPrezzo()) ?>
+                    </p>
+                    <p>
+                        <?php echo ($ciboCaneDue->getPeso()) ?>
+                    </p>
+                    <p>
+                        <?php echo ($ciboCaneDue->getIngredienti()) ?>
                     </p>
                 </div>
             </div>
@@ -68,8 +89,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/245336/almo-daily-menu-cat-400-gr-vitello.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Almo Nature Cat Daily Lattina
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($ciboGatto->getCategoria()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($ciboGatto ->getPrezzo()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($ciboGatto ->getPeso()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($ciboGatto ->getIngredienti()) ?>
                     </p>
                 </div>
             </div>
@@ -77,8 +110,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/272714/tetra-guppy-mini-flakes.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Mangime per Pesci Guppy in Fiocchi
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($ciboPesce->getCategoria()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($ciboPesce->getPrezzo()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($ciboPesce->getPeso()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($ciboPesce->getIngredienti()) ?>
                     </p>
                 </div>
             </div>
@@ -86,8 +131,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Voliera Wilma in Legno
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($accessorioUccello->getCategoria()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($accessorioUccello->getPrezzo()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($accessorioUccello->getMateriale()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($accessorioUccello->getDimensioni()) ?>
                     </p>
                 </div>
             </div>
@@ -95,8 +152,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Cartucce Filtranti per Filtro EasyCrystal
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($accessorioPesce->getCategoria()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($accessorioPesce->getPrezzo()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($accessorioPesce->getMateriale()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($accessorioPesce->getDimensioni()) ?>
                     </p>
                 </div>
             </div>
@@ -104,8 +173,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Kong Classic
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($giocoCane->getCategoria()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($giocoCane->getPrezzo()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($giocoCane->getCaratteristiche()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($giocoCane->getDimensioni()) ?>
                     </p>
                 </div>
             </div>
@@ -113,8 +194,20 @@ $accessorioUccello = new Accessorio("Uccello", "184,99 euro", "Legno", "100 cm x
             <div class="card me-4" style="width: 18rem;">
                 <img src="https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg" class="card-img-top" alt="Royal Canini">
                 <div class="card-body">
+                    <h6>
+                        Topini di peluche Trixie
+                    </h6>
                     <p class="card-text">
-                        <?php  ?>
+                        <?php echo ($giocoGatto->getCategoria()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($giocoGatto->getPrezzo()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($giocoGatto->getCaratteristiche()) ?>
+                    </p>
+                    <p class="card-text">
+                        <?php echo ($giocoGatto->getDimensioni()) ?>
                     </p>
                 </div>
             </div>
